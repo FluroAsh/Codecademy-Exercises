@@ -9,5 +9,5 @@ print(names_and_dogs_names, "\n")
 'print(list(names_and_dogs_names))'
 
 # Convert into readable list, assign to a tuple 
-converted_list = list(names_and_dogs_names)
-print(converted_list)
+list_of_names_and_dogs_names = list(names_and_dogs_names)
+print(list_of_names_and_dogs_names)
