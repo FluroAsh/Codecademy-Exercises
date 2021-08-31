@@ -1,5 +1,5 @@
 class Student():
-  # Constructor for student -- CONSTRUCTING OUR STUDENTS!
+  # Constructor for student -- CONSTRUCTING OUR STUDENTS' ATTRIBUTES!
   def __init__(self, name, year):
     self.name = name
     self.year = year
