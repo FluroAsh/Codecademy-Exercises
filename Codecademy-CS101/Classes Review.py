@@ -33,3 +33,13 @@ sandro.add_grade(Grade(86))
 # Calls our print_grades method to get grades
 pieter.print_grades()
 sandro.print_grades()
+
+'''
+From here you could...
+(Implement in the future)
+
+    1. Write a Grade method .is_passing() that returns whether a Grade has a passing .score.
+    2. Write a Student method get_average() that returns the student’s average score.
+    3. Add an instance variable to Student that is a dictionary called .attendance, with dates as keys and booleans as values that indicate whether the student attended school that day.
+    4. Write your own classes to do whatever logic you want!
+'''
