@@ -1,5 +1,5 @@
 from node import Node
-# Create the Queue class below:
+
 class Queue:
   def __init__(self, max_size=None):
     self.head = None
