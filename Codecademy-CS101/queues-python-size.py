@@ -18,10 +18,8 @@ class Queue:
   def has_space(self):
     if self.max_size == None:
       return True
-    elif self.max_size > self.get_size():
-      return True
-    else:
-      return False
+    else: 
+      return self.max_size > self.get_size() 
 
   def is_empty(self):
     if self.size == 0:
