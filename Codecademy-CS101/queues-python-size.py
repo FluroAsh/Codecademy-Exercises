@@ -7,10 +7,11 @@ class Queue:
     self.max_size = max_size
     self.size = 0
   
-  def peek(self):
-    if self.size > 0:
-      return Node.get_value(self.head)
-    print("Nothing to see here!")
+  def peek(self): 
+    if self.is_empty(): # Uses our is_empty block to determine if size is 0
+        print("Nothing to see here!") 
+    else:
+        return Node.get_value(self.head)
     
   def get_size(self):
     return self.size
@@ -21,7 +22,5 @@ class Queue:
     else: 
       return self.max_size > self.get_size() 
 
-  def is_empty(self):
-    if self.size == 0:
-      return True
-    return False  
+  def is_empty(self): 
+    return self.size == 0 # Returns True or False
