@@ -25,16 +25,14 @@ class Stack:
   
   def peek(self):
     if not self.is_empty:
-	    return self.top_item.get_value()
+      return self.top_item.get_value()
     else:
       print("Nothing to see here!")
       
   # If our limit is greater than size, we have space!
   def has_space(self):
-    if self.limit > self.size:
-      return True
+    return self.limit > self.size
 
   # Helper method to see if our stack is empty!  
   def is_empty(self):
-    if self.size == 0:
-      return True
+    return self.size == 0
