@@ -17,4 +17,4 @@ class HashMap:
 
   def retrieve(self, key):
     array_index = self.compressor(self.hash(key))
-    return self.array[array_index]
+    return self.array[array_index] # Returns the value at the index using our key's hash_code
