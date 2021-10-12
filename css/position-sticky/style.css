@@ -87,7 +87,7 @@ footer {
 
 .question {
   text-align: center;
-  position: relative;
+  position: sticky;
   top: 40px;
   border: 15px solid #DBE9EE;
   background-color: white;
