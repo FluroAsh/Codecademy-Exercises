@@ -16,5 +16,6 @@ local_blockchain.add_block(block_three_transactions)
 # Targets 2nd block and replaces transactions with fake_transactions (generates a different hash)
 local_blockchain.chain[2].transactions = fake_transactions
 local_blockchain.validate_chain()
+# Block 2 is invalid as block 3's previous hash does not match block 2's current hash
 
 local_blockchain.print_blocks()
